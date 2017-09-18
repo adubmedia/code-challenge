@@ -1,0 +1,40 @@
+﻿.banner {
+    background-color: #52528c;
+    box-shadow: 0 1px 3px #372554;
+    height: 60px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    @media(min-width:768px) {
+        height: 80px;
+    }
+}
+
+.header-group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 8px 0;
+    width: 100%;
+
+    @media(min-width:768px) {
+        padding: 16px 0;
+    }
+}
+
+header h1 {
+    display: inline-flex;
+
+    @media(max-width: 359px) {
+        font-size: 24px;
+    }
+}
+
+.fa-user {
+    font-size: 24px !important;
+    margin: 0 10px 0 0;
+}

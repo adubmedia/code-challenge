@@ -1,0 +1,53 @@
+.fa-plus {
+  color: #fff;
+  font-size: 18px !important;
+  margin-right: 5px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+}
+.btn-footer {
+  background-color: #5cb85c;
+  border: 1px solid #4cae4c;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+}
+@media (max-width: 376px) {
+  .btn-footer {
+    box-shadow: 0 -1px 5px #4cae4c;
+    width: 100%;
+  }
+}
+.btn-footer:hover {
+  background-color: #231123;
+  border: 1px solid #231123;
+}
+.btn-group {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  height: 44px;
+}
+button > span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.new-phone,
+.new-email {
+  margin-top: 24px;
+}
+@media (max-width: 767px) {
+  .new-phone,
+  .new-email {
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px 0;
+    width: 90% !important;
+  }
+}
