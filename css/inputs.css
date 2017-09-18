@@ -15,8 +15,13 @@
 }
 .address-label {
   display: block;
-  margin: 3px 0 4px 3px;
+  margin: 3px 0 4px 6px;
   padding: 0;
+}
+@media (max-width: 767px) {
+  .address-label {
+    margin: 6px 0 4px 6px;
+  }
 }
 @media (min-width: 768px) {
   .label-group {
@@ -38,22 +43,6 @@
   overflow: hidden;
   padding-left: 3px;
   width: 100%;
-}
-@media (min-width: 768px) {
-  .input-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .input-parent {
-    margin: 5px 8px 3px 0;
-    width: 100%;
-  }
-  .input-parent-select {
-    margin: 5px 3px 3px 0;
-    width: 100%;
-  }
 }
 fieldset {
   width: 100%;
@@ -99,8 +88,26 @@ input:required {
   .mobile-email {
     width: 80%;
   }
+  .input-parent,
+  .input-parent-select {
+    margin: 5px 8px 3px 0;
+  }
 }
 @media (min-width: 768px) {
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .input-parent {
+    margin: 5px 8px 3px 0;
+    width: 100%;
+  }
+  .input-parent-select {
+    margin: 5px 3px 3px 0;
+    width: 100%;
+  }
   .one {
     width: 8.33333333%;
   }
